@@ -11,7 +11,7 @@ def load_model(model_path):
         loaded_model = pickle.load(f)
     return loaded_model
 
-# Path to your trained model
+# Path to trained model
 model_path = 'best_xgb_model.pkl'
 model = load_model(model_path)
 

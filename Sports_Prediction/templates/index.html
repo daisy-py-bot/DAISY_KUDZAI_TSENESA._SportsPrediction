@@ -7,6 +7,8 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-image: url("{{ url_for('static', filename='images/fifa.jpeg') }}"); /* Path to your background image */
+            background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
             margin: 20px;
@@ -19,6 +21,7 @@
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: rgba(255, 255, 255, 0.9);
         }
         .form-group {
             margin-bottom: 20px;
@@ -75,7 +78,7 @@
                 <label for="wage_eur">Wage (EUR)</label>
                 <input type="number" id="wage_eur" name="wage_eur" step="any" required>
             </div>
-            <!-- Add more inputs as needed -->
+            
 
             <button type="submit">Predict</button>
         </form>

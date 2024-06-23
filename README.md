@@ -1,3 +1,6 @@
+# LINK TO VIDEO:
+https://youtu.be/B8Hi7_m-_sM
+
 # Player Rating Prediction Model
 
 ## Overview

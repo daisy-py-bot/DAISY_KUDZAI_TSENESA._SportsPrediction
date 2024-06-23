@@ -61,3 +61,25 @@ The best model was evaluated using the FIFA 22 Player Dataset (players_22.csv) t
 ## Web Application
 The model is deployed as a web application using Flask. Users can interact with the model through a web interface to predict player ratings. 
 The application uses the trained XGBoost model to provide predictions and confidence scores.
+
+Features:
+- Input form to enter player attributes
+- Display of predicted player rating based on input
+- Running the Web Application
+
+  
+Clone the repository:
+git clone https://github.com/your_username/player-rating-prediction.git
+cd player-rating-prediction
+
+Install dependencies:
+pip install -r requirements.txt
+
+Run the Flask application:
+python app.py
+
+Open a web browser and go to http://localhost:5000 to use the web application.
+
+
+
+

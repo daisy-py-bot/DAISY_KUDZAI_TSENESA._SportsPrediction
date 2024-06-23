@@ -69,8 +69,9 @@ Features:
 
   
 Clone the repository:
-git clone https://github.com/your_username/player-rating-prediction.git
-cd player-rating-prediction
+
+git clone https://github.com/your_username/player-rating-prediction.git](https://github.com/daisy-py-bot/DAISY_KUDZAI_TSENESA._SportsPrediction.git
+cd DAISY_KUDZAI_TSENESA._SportsPrediction
 
 Install dependencies:
 pip install -r requirements.txt
@@ -78,7 +79,7 @@ pip install -r requirements.txt
 Run the Flask application:
 python app.py
 
-Open a web browser and go to http://localhost:5000 to use the web application.
+Open a web browser and go to http://127.0.0.1:5501 to use the web application.
 
 
 
